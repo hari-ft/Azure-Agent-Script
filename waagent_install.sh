@@ -1,4 +1,10 @@
 #!/bin/sh
+# Update the pkg repository
+echo "Updating package repository..."
+pkg update
+# Upgrade installed packages
+echo "Upgrading installed packages..."
+pkg upgrade -y
 # Install required packages
 pkg install -y git
 # Create symlink for Python if not already present
