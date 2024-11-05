@@ -1,5 +1,7 @@
 #!/bin/sh
 
+pkg update
+
 # Install required packages
 pkg install -y curl
 pkg install -y bash
