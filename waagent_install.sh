@@ -1,12 +1,12 @@
 #!/bin/sh
 
-pkg update
+sudo pkg update
 
 # Install required packages
-pkg install curl
-pkg install -y bash
-pkg install -y sudo
-pkg install -y git
+sudo pkg install curl
+sudo pkg install -y bash
+sudo pkg install -y sudo
+sudo pkg install -y git
 
 # Create symlink for Python if not already present
 ln -sf /usr/local/bin/python3 /usr/local/bin/python
