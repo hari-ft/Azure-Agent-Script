@@ -3,7 +3,7 @@
 pkg update
 
 # Install required packages
-pkg install -y curl
+pkg install curl
 pkg install -y bash
 pkg install -y sudo
 pkg install -y git
