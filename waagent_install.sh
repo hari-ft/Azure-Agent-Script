@@ -1,4 +1,3 @@
-#!/bin/sh
 sudo pkg update
 sudo pkg install git
 ln -sf /usr/local/bin/python3 /usr/local/bin/python
