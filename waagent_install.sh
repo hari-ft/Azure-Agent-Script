@@ -17,12 +17,3 @@ python3 setup.py install --register-service
 
 # Enable the waagent service
 sysrc waagent_enable="YES"
-
-# Start the waagent service
-service waagent start
-
-# Wait for 10 seconds before checking the status
-sleep 10
-
-# Check the status of waagent service
-service waagent status
